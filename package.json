@@ -1,0 +1,33 @@
+{
+    "name": "AppG",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "client-install": "npm install --prefix client",
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "busboy-body-parser": "^0.2.0",
+        "concurrently": "^4.1.0",
+        "ejs": "^2.6.1",
+        "express": "^4.17.1",
+        "formidable": "^1.2.1",
+        "fs": "0.0.1-security",
+        "jwt-simple": "^0.5.1",
+        "mdbreact": "^4.15.0",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.0.7",
+        "mongoose-double": "0.0.1",
+        "morgan": "^1.7.0",
+        "password-hash": "^1.2.2",
+        "reactstrap": "^8.0.0",
+        "winston": "^2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0"
+    }
+}

@@ -1,0 +1,10 @@
+.b{
+    color: rgb(26, 26, 167)
+}
+
+.btn1:hover{
+    background-color:#248061 !important;
+}
+.btn1:focus{
+    background-color:#625f6e !important;
+}

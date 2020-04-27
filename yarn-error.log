@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Applications/apache-maven-3.6.0/bin:/usr/local/mongodb/bin:/opt/yarn-v1.15.2/bin:/Applications/apache-maven-3.6.0/bin:/usr/local/mongodb/bin:/opt/yarn-v1.15.2/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/Users/siditoure/.config/yarn/link'
+
+npm manifest: 
+  {
+      "name": "mernApp",
+      "version": "1.0.0",
+      "main": "server.js",
+      "scripts": {
+          "start": "node server.js"
+      },
+      "dependencies": {
+          "body-parser": "^1.18.2",
+          "create-react-app": "^3.0.0",
+          "express": "^4.16.2",
+          "jwt-simple": "^0.5.1",
+          "mongoose": "^5.0.7",
+          "password-hash": "^1.2.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

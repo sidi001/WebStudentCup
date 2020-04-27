@@ -1,0 +1,17 @@
+ 
+  .section{
+    padding:20px 0;
+    width: 100%;
+  }
+  
+  .section-b{
+    background:#333;
+    color:#fff;
+  }
+  
+  @media(max-width:960px){
+    .container{
+      padding-right:3rem;
+      padding-left:3rem;
+    }
+  }
